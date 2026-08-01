@@ -1,11 +1,11 @@
 /* General Layout & Colors */
 html, body {
-    background-color: #801326 !important; /* خلفية نبيتي للصفحة بالكامل للغاء أي خط أبيض */
+    background-color: #801326 !important; 
     margin: 0;
     padding: 0;
 }
 
-/* Custom Navbar (White) */
+/* Custom Navbar */
 .custom-navbar-white {
     background-color: #ffffff !important;
     padding-top: 12px;
@@ -111,7 +111,7 @@ html, body {
     margin-bottom: 0;
 }
 
-/* White Footer (No Gaps) */
+/* White Footer */
 .custom-footer {
     background-color: #ffffff !important;
     color: #801326 !important;
