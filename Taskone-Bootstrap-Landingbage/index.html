@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page Demo</title>
+    
+    <!-- Bootstrap Local CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header / Navbar (White) -->
+    <nav class="navbar navbar-expand-lg navbar-light custom-navbar-white">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-burgundy" href="#">TechPulse</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link btn-contact ms-2" href="#contact">Get Started</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Carousel Section -->
+    <div id="mainCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="1"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active burgundy-carousel text-white text-center py-5">
+                <div class="container py-5">
+                    <h1>Welcome to Our Landing Page</h1>
+                    <p class="lead">Built with Bootstrap 5, Custom Flexbox & Grid</p>
+                    <button id="welcomeBtn" class="btn btn-light-burgundy btn-lg">Click Me!</button>
+                </div>
+            </div>
+            <div class="carousel-item burgundy-carousel text-white text-center py-5">
+                <div class="container py-5">
+                    <h1>Responsive & Modern Design</h1>
+                    <p class="lead">Seamless experience across all screen sizes</p>
+                    <a href="#features" class="btn btn-outline-light btn-lg">Learn More</a>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#mainCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#mainCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+
+    <!-- Features Section (Flex & Grid) -->
+    <section id="features" class="features-section py-5">
+        <div class="container">
+            <h2 class="text-center mb-4 text-white fw-bold">Features (Flex & Grid Section)</h2>
+            
+            <div class="custom-grid-container">
+                <div class="card-item">
+                    <h3>⚡ Fast Performance</h3>
+                    <p>Optimized for quick loading times and smooth performance.</p>
+                </div>
+                <div class="card-item">
+                    <h3>📱 Fully Responsive</h3>
+                    <p>Looks great on mobile devices, tablets, and desktop screens.</p>
+                </div>
+                <div class="card-item">
+                    <h3>🎨 Clean Layout</h3>
+                    <p>Designed using Bootstrap components and custom layout rules.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- White Footer -->
+    <footer class="custom-footer text-center py-3">
+        <p class="mb-0">All Rights Reserved &copy; 2026</p>
+    </footer>
+
+    <!-- Bootstrap Local JS Bundle -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
